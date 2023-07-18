@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/Battle-Q/battleq-config.git
           search-paths: /**
-          default-label: master
+          default-label: main
 #          ignoreLocalSshSettings: true
 #          strictHostKeyChecking: false
 #          hostKey: hostkey # hostKey? base64 ???? ?
