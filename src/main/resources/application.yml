@@ -8,7 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/Battle-Q/battleq-config.git
-          search-paths: /**
+          search-paths: '{application}/{profile}'
           default-label: master
 #          ignoreLocalSshSettings: true
 #          strictHostKeyChecking: false
